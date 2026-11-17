@@ -1,0 +1,147 @@
+body{
+    background-color: #0b0f19;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+.container {
+    background-color: #121824;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #1f2937
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.field {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-size: 11px;
+    color: #9ca3af;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #0b0f19;
+    border: 1px solid #374151;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.checkbox-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+.checkbox-box input {
+    margin-right: 10px;
+}
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #ccff00;
+    color: 000000;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #b3e600;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+}
+.left-side {
+    padding-right: 30px;
+}
+
+.left-side h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 14px;
+    color: #ccff00;
+    font-weight: bold;
+}
+
+.main-subtitle {
+    font-size: 13px;
+    color: #9ca3af;
+    letter-spacing: 1px;
+}
+.status-panel {
+    margin-top: 40px;
+    background-color: rgba(18, 24, 36, 0.6);
+    border: 1px solid #1f2937;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 380px;
+}
+
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.operator-id {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #1f2937;
+    color: #9ca3af;
+}
+
+.status-row .pending {
+    color: #9ca3af;
+}
+
+.status-row .required {
+    color: #ccff00;
+}
+
